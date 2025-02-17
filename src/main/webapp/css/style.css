@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+/*List Ref: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 110px;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    /* table-layout: unset; */
+    width: 100%;
+}
+
+.styled-table thead tr {
+    background-color: #232323;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 20px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #000000;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.styled-table img {
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    height: 150px;
+}
+
+.styled-table-prod {
+    border-collapse: collapse;
+    margin: 25px 110px;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+    display: table-caption;
+    /* table-layout: unset; */
+    width: 100%;
+  
+    }
+    
+.styled-table-prod thead tr {
+    background-color: #232323;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table-prod th,
+.styled-table-prod td {
+    padding: 20px 15px;
+}
+
+.styled-table-prod tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table-prod tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table-prod tbody tr:last-of-type {
+    border-bottom: 2px solid #000000;
+}
+
+.styled-table-prod tbody tr.active-row {
+    font-weight: bold;
+    color: #000000;
+}
+
+.styled-table-prod img {
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    height: 150px;
+}
+
+/* for button. From: https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/*/
+.fcc-btn {
+  background-color:  #FF8C00;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.fcc-btn:hover {
+  background-color: #FFA500;
+}
+
+.fcc-btn-important {
+  background-color: #d80e0e;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.fcc-btn-important:hover {
+  background-color: #f33f3f;
+}
+
+.addedupdatedetails{
+	font-size: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top:60px;
+}
+
+.productdetails{
+	font-size: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top:190px;
+}
+
+.productdetails h3{
+	font-size: 40px;
+    color: #1a6692;
+    margin-bottom: 20px;
+    margin-top:190px;
+}
+
+.productdetails p{
+	font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top:50px;
+}
+
+.thedetails{
+		margin-bottom: 20px;
+}
+
+.howmany {
+    display: flex;
+    height: 35px;
+}
+
+.howmany #quantity {
+    width: 200px;
+}
+
+.howmany input[type="button"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-heading-one {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.right-image {
+    /* display: contents; */
+    white-space: nowrap;
+}
+
+form.deletebtn {
+    display: inline-block;
+    
+}
+input.deletebtn {
+    background-color: #d80e0e;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor:pointer;
+}
+.logout{
+	margin-top: 100px;
+    position: absolute;
+    	    max-width: 2000px;
+  background: white;
+  padding: 10px;
+}
+.logoutdtls{
+    max-width: 500px;
+    background: white;
+    padding: 10px;
+    margin-left: 800px;
+    text-align: center;
+} 
+.logoutdtls h3 {
+   max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+.logout-btn {
+  background-color:  #FF8C00;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.logout-btn:hover {
+  background-color: #FFA500;
+}
